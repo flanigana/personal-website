@@ -1,0 +1,227 @@
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  min-width: 1500px;
+}
+
+h1 {
+  margin: 0;
+}
+
+#header-container::before {
+  background-image: url("./images/header-image.jpg");
+  background-size: cover;
+  content: "";
+  display: block;
+  position: absolute;
+  background-position-y: 70%;
+  width: 100%;
+  min-height: 500px;
+  z-index: -2;
+  opacity: 90%;
+}
+
+header {
+  text-align: center;
+}
+
+header img {
+  height: 300px;
+  border-radius: 50%;
+
+  padding: 25px 0px 25px 0px;
+}
+
+header h1 {
+  padding: 0px 0px 49px 0px;
+  font-size: 72px;
+
+  color: white;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: rgb(13, 48, 80);
+}
+
+nav {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  font-size: 14px;
+
+  background:
+  radial-gradient(rgb(206, 206, 206) 2%, transparent 10%) 0 0,
+  radial-gradient(rgb(44, 165, 94) 2%, transparent 10%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-size:10px 10px;
+  background-color:rgb(22, 92, 158);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+.sticky + #page-background {
+  padding-top: 51px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: 16px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 16px 32px;
+}
+
+nav a:hover {
+  background: white;
+  color: rgb(22, 92, 158);
+}
+
+#page-background {
+  padding: 0px 200px;
+
+  background:
+  radial-gradient(rgb(206, 206, 206) 2%, transparent 10%) 0 0,
+  radial-gradient(rgb(44, 165, 94) 2%, transparent 10%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:rgb(255, 255, 255);
+  background-size:12px 12px;
+}
+
+#page-container {
+  background: rgb(22, 92, 158, 20%);
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.page-component {
+  border-bottom: 1px solid black;
+}
+
+#page-body {
+  padding: 8px 32px;
+  color: black;
+}
+
+#page-body h1 {
+  text-align: center;
+}
+
+#page-body p {
+  text-indent: 3em;
+}
+
+#skills-container {
+  min-height: 350px;
+  min-width: 360px;
+
+  background: rgb(255, 255, 255, 50%);
+  border: 1px solid black;
+  border-radius: 25px;
+
+  margin: 10px 0px;
+}
+
+#skills-container h2 {
+  margin: 25px 0px 10px 0px;
+}
+
+#skills-container div {
+  float: left;
+  margin: 5px 25px;
+  width: 45%;
+
+  text-align: center;
+}
+
+#skills-container ul {
+  margin: 0px;
+  padding: 0px 0px;
+  list-style-type: none;
+}
+
+#skills-container li {
+  padding: 5px 0px;
+}
+
+#noteworthy-courses li {
+  padding: 10px 0px;
+}
+
+#projects-container {
+  margin: 0px 25px;
+}
+
+#projects-container h3, h4 {
+  margin: 5px 0px;
+}
+
+#projects-container p {
+  text-indent: 0em;
+}
+
+.project-container {
+  background: rgb(255, 255, 255, 50%);
+  margin: 15px 0px;
+  padding: 5px 0px;
+}
+
+.project {
+  margin: 0px 15px;
+}
+
+.project ul {
+  margin: 0px;
+}
+
+.project a {
+  text-decoration: none;
+}
+
+.interest-container img {
+  max-height: 300px;
+  margin: 0px 10px;
+}
+
+#league-finals-img {
+  content: url("./images/league-finals.jpg");
+  float: right;
+}
+
+#meiji-jingu-img {
+  content: url("./images/meiji-jingu.jpg");
+  float: left;
+  margin: 0px 10px 25px 0px;
+}
+
+#contact-container {
+  text-align: center;
+}
+
+#contact-img {
+  content: url("./images/classroom-photo.jpg");
+  height: 300px;
+  float: right;
+  margin: 0px 10px 25px 0px;
+}
+
+#contact-container a {
+  text-decoration: none;
+  color: black;
+}
+
+#contact-container a:hover {
+  color: rgb(22, 92, 158);
+}
