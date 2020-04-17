@@ -8,17 +8,12 @@ h1 {
   margin: 0;
 }
 
-#header-container::before {
+#header-container {
   background-image: url("./images/header-image.jpg");
   background-size: cover;
-  content: "";
-  display: block;
-  position: absolute;
   background-position-y: 70%;
   width: 100%;
   min-height: 500px;
-  z-index: -2;
-  opacity: 90%;
 }
 
 header {
