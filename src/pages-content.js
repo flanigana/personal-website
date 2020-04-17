@@ -106,7 +106,7 @@ const pagesContent = [
             <p>
                 I'm a very detail-oriented thinker and I like to work through a lot of hard problems when developing code. I do my best to use no
                 libraries and develop with the barebones tools whenever possible while learning something new so that I can understand the
-                fundamentals to my best ability. That beind said, I have no problem implementing libraries if need be or when a library could make a 
+                fundamentals to my best ability. That being said, I have no problem implementing libraries if need be or when a library could make a 
                 greatly cleaner file system. Outside of coursework, I've learned to use things like JavaScript/HTML/CSS, React, Node, and Matlab on my
                 own using online resources and documentation. Due to this fact, I am able to adapt and learn new technologies in a short period of time.
             </p>
@@ -247,7 +247,7 @@ const pagesContent = [
             <div class="interest-container">
                 <h2>Building Computers</h2>
                 <p>
-                    After having my first desktop computer since around 2008, when I upgraded my PC, I wanted to piece it together myself. In 2013,I was
+                    After having my first desktop computer since around 2008, when I upgraded my PC, I wanted to piece it together myself. In 2013, I was
                     finally able to do this for the first time and easily pick the pieces after keeping up with all of the hardware releases in the recent
                     years. Soon after that, my friends became interested in PC gaming as well and were interested in having me help them build their own
                     systems! Since building my first PC, I've helped 4 friends build 6 different systems and have built two of my own. I continue to try
@@ -279,7 +279,7 @@ const pagesContent = [
                 <h3>You can contact and follow me using the info and links below:</h3>
                 <h2>E-mail - < alecflanigan@gmail.com ></h2>
                 <h2>LinkedIn - <a href="https://www.linkedin.com/in/alec-flanigan-963899149">< Alec Flanigan ></a></h2>
-                <h2>GitHub - <a href="https://github.com/flanigana">< flanigana> </a></h2>
+                <h2>GitHub - <a href="https://github.com/flanigana">< flanigana > </a></h2>
                 <div style="clear:both;"/>
             </div>
         `,
