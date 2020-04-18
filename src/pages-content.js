@@ -37,6 +37,7 @@ const pagesContent = [
                         </p>
                 </ul>
             </div>
+            <div style="clear:both;"/>
             `,
     }, 
     
