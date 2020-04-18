@@ -34,12 +34,12 @@ class NavBar extends Component {
                 this.setState({isStickied:false});
             }
         }
-        // console.log(`Window: ${windowOffsetTop} \t NavBar: ${this.myRef.current.offsetTop}`);
     }
 
     render () {
         return (
             <nav ref={this.myRef} className={`${this.state.isStickied ? "sticky" : "notSticky"}`}>
+                <img id="nav-logo" src={require("./images/logo.png")} alt="Logo" />
                 <ul>
                     {pagesContent.map(function create (page, key) {
 

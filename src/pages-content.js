@@ -20,6 +20,7 @@ const pagesContent = [
             </p>
             <div id="education-container">
                 <h2>Edcuation:</h2>
+                <img id="lafayette-img" alt="Lafayette College"/>
                 <h3>Lafayette College - Class of 2020</h3>
                 <ul>
                     <li>Bachelors Degree in Computer Science</li>
@@ -30,7 +31,7 @@ const pagesContent = [
                         </p>
                     <li>Bachelors Degree in Asian Studies</li>
                         <p>
-                            Introduced new perspectives of ideas not present in areas, such as the U.S. Allowed me decentralize my view of the world
+                            Introduced new perspectives of ideas not present in areas, such as the U.S. Allowed me to decentralize my view of the world
                             and be present of the massive impacts that Asia has had (and continues to have) on the world. I also studied Japanese
                             and studied abroad in Japan for a semester.
                         </p>

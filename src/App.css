@@ -60,6 +60,12 @@ nav {
   padding-top: 51px;
 }
 
+#nav-logo {
+  float: left;
+  max-height: 51px;
+  max-width: 51px;
+}
+
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -116,6 +122,18 @@ nav a:hover {
 
 #page-body p {
   text-indent: 3em;
+}
+
+#education-container p {
+  text-indent: 0em;
+  overflow: hidden;
+}
+
+#lafayette-img {
+  content: url("./images/lafayette.jpg");
+  float: right;
+  height: 300px;
+  margin: 100px 0px 10px 10px;
 }
 
 #skills-container {
