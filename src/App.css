@@ -147,7 +147,7 @@ nav a:hover {
 }
 
 #page-container {
-  background: rgb(22, 92, 158, 20%);
+  background: rgba(22, 92, 158, 20%);
   border-left: 1px solid black;
   border-right: 1px solid black;
 }
@@ -193,7 +193,7 @@ nav a:hover {
 
 
 .skills-list {
-  background: rgb(255, 255, 255, 50%);
+  background: rgba(255, 255, 255, 50%);
   border: 1px solid black;
   border-radius: 2vw;
 
@@ -254,7 +254,7 @@ nav a:hover {
 }
 
 .project-container {
-  background: rgb(255, 255, 255, 50%);
+  background: rgba(255, 255, 255, 50%);
   margin: 1.5vw 0vw;
   padding: 1vw 0vw;
 }
