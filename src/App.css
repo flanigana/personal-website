@@ -147,8 +147,8 @@ nav a:hover {
 }
 
 #page-container {
-  /* background: rgba(22, 92, 158, 20%); */
-  background: rgb(22, 92, 158);
+  background: rgb(179, 218, 255);
+  background: rgba(22, 92, 158, 0.2);
   border-left: 1px solid black;
   border-right: 1px solid black;
 }
@@ -194,8 +194,8 @@ nav a:hover {
 
 
 .skills-list {
-  /* background: rgba(255, 255, 255, 50%); */
   background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.5);
   border: 1px solid black;
   border-radius: 2vw;
 
@@ -256,8 +256,8 @@ nav a:hover {
 }
 
 .project-container {
-  /* background: rgba(255, 255, 255, 50%); */
   background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.5);
   margin: 1.5vw 0vw;
   padding: 1vw 0vw;
 }
