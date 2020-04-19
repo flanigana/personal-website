@@ -13,6 +13,14 @@ h1 {
   margin: 0;
 }
 
+h2, h3{
+  margin: 1vw 0vw;
+}
+
+p {
+  margin: 1vw 0vw;
+}
+
 #header-container {
   background-image: url("./images/header-image.jpg");
   background-size: cover;
@@ -46,6 +54,7 @@ nav {
   overflow: hidden;
   text-align: center;
   font-size: 1rem;
+  line-height: 1rem;
 
   background:
   radial-gradient(rgb(206, 206, 206) 2%, transparent 10%) 0 0,
@@ -56,21 +65,13 @@ nav {
   background-color:rgb(22, 92, 158);
 }
 
-@media screen and (max-width: 600px) {
-  nav {
-    min-height: 6vh;
-    height: 3rem;
-    font-size: 1rem;
-  }
-}
-
 .sticky {
   position: fixed;
   top: 0;
 }
 
 .sticky + #page-background {
-  padding-top: 51px;
+  padding-top: 3rem;
 }
 
 #nav-logo {
@@ -93,7 +94,7 @@ nav a {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  padding: 1rem 2vw;
+  padding: 0.85rem 2vw;
 }
 
 nav a:hover {
@@ -101,8 +102,25 @@ nav a:hover {
   color: rgb(22, 92, 158);
 }
 
+@media screen and (max-width: 600px) {
+  nav {
+    min-height: 3rem;
+    height: 3rem;
+    font-size: 0.8rem;
+    text-align: unset;
+  }
+
+  nav li {
+    padding: 1rem 2vw 1rem 0vw;
+  }
+
+  nav a {
+    padding: 1.05rem 2vw;
+  }
+}
+
 #page-background {
-  padding: 0px 10vw;
+  padding: 0vw 10vw;
 
   background:
   radial-gradient(rgb(206, 206, 206) 2%, transparent 10%) 0 0,
@@ -111,6 +129,12 @@ nav a:hover {
   radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
   background-color:rgb(255, 255, 255);
   background-size:12px 12px;
+}
+
+@media screen and (max-width: 600px) {
+  #page-background {
+    padding: 0vw 3rem;
+  }
 }
 
 #page-container {

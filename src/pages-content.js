@@ -283,7 +283,7 @@ const pagesContent = [
             <img id="contact-img" alt="Classroom Photo"/>
             <div id="contact-container">
                 <h3>You can contact and follow me using the info and links below:</h3>
-                <h2>E-mail: < alecflanigan@gmail.com ></h2>
+                <h2>E-mail: alecflanigan@gmail.com</h2>
                 <h2>LinkedIn: <a href="https://www.linkedin.com/in/alec-flanigan-963899149">< Alec Flanigan ></a></h2>
                 <h2>GitHub: <a href="https://github.com/flanigana">< flanigana > </a></h2>
                 <div style="clear:both;"></div>
