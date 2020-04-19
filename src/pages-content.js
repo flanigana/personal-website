@@ -37,7 +37,7 @@ const pagesContent = [
                         </p>
                 </ul>
             </div>
-            <div style="clear:both;"/>
+            <div style="clear:both;"></div>
             `,
     }, 
     
@@ -74,44 +74,48 @@ const pagesContent = [
                     </ul>
                 </div>
             </div>
+            <div style="clear:both;"></div>
             
-            <h2>Noteworthy Courses:</h2>
-            <ul id="noteworthy-courses">
-                <li>
-                    <Strong>Data Structures</Strong> - Developed data structures, such as ArrayLists/LinkedLists and HashTables using primitive Java types.
-                    The course was an introduction to Big O notation along with data structures entirely. Specifically, the course was key in understanding
-                    the importance of using the correct data structure for the job.
-                </li>
-                <li>
-                    <Strong>Computer Organization</Strong> - A study of computer hardware and the functionality between components such as the processor, 
-                    RAM, and hard drive. This course was useful in understanding how a processor completes tasks and the importance of using RAM memory
-                    over using memory from the hard drive during tasks.
-                </li>
-                <li>
-                    <Strong>Software Development</Strong> - Worked in a small team in order to build software that met a customer's needs. The team worked
-                    together using C++, C, and SQLite to build an application with a working front-end and database. This course developed my ability to
-                    work well within a team and meet deadlines together.
-                </li>
-                <li>
-                    <Strong>Data Mining</Strong> - A course analyzing large data sets using Hadoop to divide processing tasks across multiple systems to
-                    make the data manageable. The programs were developed and tested on local systems and then hosted on an AWS server. I learned parallel
-                    programming along with how to use AWS to run a program across muliple instances at once.
-                </li>
-            </ul>
-            <p>
-                Along my software development lifetime I've come to use all of the technologies listed above. I've developed using both Windows and Linux
-                machines and am familiar with using SSH to develop remotely or on a server. While developing, I've used git and GitHub for course projects,
-                group projects, and personal projects. I used Matlab in the summer of 2017 during a summer research position where alongside a professor
-                (more details in the <strong>Projects</strong> section of this page!). My most recent projects have used JavaScript (along with React and
-                Node.js). This webpage is an example of one of those!
-            </p>
-            <p>
-                I'm a very detail-oriented thinker and I like to work through a lot of hard problems when developing code. I do my best to use no
-                libraries and develop with the barebones tools whenever possible while learning something new so that I can understand the
-                fundamentals to my best ability. That being said, I have no problem implementing libraries if need be or when a library could make a 
-                greatly cleaner file system. Outside of coursework, I've learned to use things like JavaScript/HTML/CSS, React, Node, and Matlab on my
-                own using online resources and documentation. Due to this fact, I am able to adapt and learn new technologies in a short period of time.
-            </p>
+            <div id="additional-skills-info">
+                <h2>Noteworthy Courses:</h2>
+                <ul id="noteworthy-courses">
+                    <li>
+                        <Strong>Data Structures</Strong> - Developed data structures, such as ArrayLists/LinkedLists and HashTables using primitive Java types.
+                        The course was an introduction to Big O notation along with data structures entirely. Specifically, the course was key in understanding
+                        the importance of using the correct data structure for the job.
+                    </li>
+                    <li>
+                        <Strong>Computer Organization</Strong> - A study of computer hardware and the functionality between components such as the processor, 
+                        RAM, and hard drive. This course was useful in understanding how a processor completes tasks and the importance of using RAM memory
+                        over using memory from the hard drive during tasks.
+                    </li>
+                    <li>
+                        <Strong>Software Development</Strong> - Worked in a small team in order to build software that met a customer's needs. The team worked
+                        together using C++, C, and SQLite to build an application with a working front-end and database. This course developed my ability to
+                        work well within a team and meet deadlines together.
+                    </li>
+                    <li>
+                        <Strong>Data Mining</Strong> - A course analyzing large data sets using Hadoop to divide processing tasks across multiple systems to
+                        make the data manageable. The programs were developed and tested on local systems and then hosted on an AWS server. I learned parallel
+                        programming along with how to use AWS to run a program across muliple instances at once.
+                    </li>
+                </ul>
+                <p>
+                    Along my software development lifetime I've come to use all of the technologies listed above. I've developed using both Windows and Linux
+                    machines and am familiar with using SSH to develop remotely or on a server. While developing, I've used git and GitHub for course projects,
+                    group projects, and personal projects. I used Matlab in the summer of 2017 during a summer research position (more details in the 
+                    <strong>Projects</strong> section of this page!). My most recent projects have used JavaScript (along with React and
+                    Node.js). This webpage is an example of one of those!
+                </p>
+                <p>
+                    I'm a very detail-oriented thinker and I like to work through a lot of hard problems when developing code. I do my best to use no
+                    libraries and develop with the barebones tools whenever possible while learning something new so that I can understand the
+                    fundamentals to my best ability. That being said, I have no problem implementing libraries if need be or when a library could make a 
+                    greatly cleaner file system. Outside of coursework, I've learned to use things like JavaScript/HTML/CSS, React, Node, and Matlab on my
+                    own using online resources and documentation. Due to this fact, I am able to adapt and learn new technologies in a short period of time.
+                </p>
+            </div>
+            
         `,
     }, 
 
@@ -229,7 +233,7 @@ const pagesContent = [
         html: `
             <h1>Interests/Hobbies</h1>
 
-            <div class="interest-container">
+            <div id="computer-gaming" class="interest-container">
                 <h2>Computer Gaming</h2>
                 <img id="league-finals-img" alt="League Finals"/>
                 <p>
@@ -246,7 +250,7 @@ const pagesContent = [
                     I also got to go to South Korea in 2018 for the season 8 finals during my time abroad in Japan.
                 </p>
             </div>
-            <div class="interest-container">
+            <div id="building-computers" class="interest-container">
                 <h2>Building Computers</h2>
                 <p>
                     After having my first desktop computer since around 2008, when I upgraded my PC, I wanted to piece it together myself. In 2013, I was
@@ -257,7 +261,7 @@ const pagesContent = [
                     accomplishment and add a personal touch to something you use every day.
                 </p>
             </div>
-            <div class="interest-container">
+            <div id="japanese" class="interest-container">
                 <img id="meiji-jingu-img" alt="Meiji Jingu Entrance"/>
                 <h2>Japanese</h2>
                 <p>
@@ -267,7 +271,7 @@ const pagesContent = [
                     major so that I could learn more. Since returning from Japan, I have continued to keep in touch with friends that I had made while
                     being there.
                 </p>
-                <div style="clear:both;"/>
+                <div style="clear:both;"></div>
             </div>
         `,
     }, 
@@ -276,13 +280,13 @@ const pagesContent = [
         name: 'contact',
         html: `
             <h1>Contact Me</h1>
+            <img id="contact-img" alt="Classroom Photo"/>
             <div id="contact-container">
-                <img id="contact-img" alt="Classroom Photo"/>
                 <h3>You can contact and follow me using the info and links below:</h3>
-                <h2>E-mail - < alecflanigan@gmail.com ></h2>
-                <h2>LinkedIn - <a href="https://www.linkedin.com/in/alec-flanigan-963899149">< Alec Flanigan ></a></h2>
-                <h2>GitHub - <a href="https://github.com/flanigana">< flanigana > </a></h2>
-                <div style="clear:both;"/>
+                <h2>E-mail: < alecflanigan@gmail.com ></h2>
+                <h2>LinkedIn: <a href="https://www.linkedin.com/in/alec-flanigan-963899149">< Alec Flanigan ></a></h2>
+                <h2>GitHub: <a href="https://github.com/flanigana">< flanigana > </a></h2>
+                <div style="clear:both;"></div>
             </div>
         `,
     }, 
