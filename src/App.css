@@ -105,7 +105,6 @@ nav a:hover {
 @media screen and (max-width: 600px) {
   nav {
     min-height: 3rem;
-    height: 3rem;
     font-size: 0.8rem;
     text-align: unset;
   }
@@ -116,6 +115,16 @@ nav a:hover {
 
   nav a {
     padding: 1.05rem 2vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  nav {
+    /* font-size: 0.6rem; */
+  }
+
+  nav a {
+    padding: 1.15rem 2vw;
   }
 }
 
@@ -226,6 +235,12 @@ nav a:hover {
   padding: 0.8vw 0vw;
 }
 
+@media screen and (max-width: 600px) {
+  .skills-list h2 {
+    font-size: 0.8rem;
+  }
+}
+
 #projects-container {
   margin: 0vw 2vw;
 }
@@ -296,5 +311,9 @@ nav a:hover {
   #contact-img {
     float: none;
     margin: 0vw 18vw;
+  }
+
+  #contact-container h2 {
+    font-size: 0.8rem;
   }
 }
