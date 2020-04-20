@@ -2,7 +2,7 @@ const pagesContent = [
     {
         name: 'about',
         html: `
-            <h1>About Me</h1>
+            <h1>About</h1>
             <p style="text-align:center;"> 
                 Hello! My name is Alec Flanigan and this is my personal website. I built this page as a way to present the things I've created and to
                 promote myself. I hope you are able to find anything you need while you're here.
