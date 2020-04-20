@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ParseHTML from 'html-react-parser';
 
-const HeaderOffset = 51;
+const HeaderOffset = 48;
 
 class PageComponent extends Component {
     constructor(props) {

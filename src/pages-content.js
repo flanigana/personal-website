@@ -23,13 +23,13 @@ const pagesContent = [
                 <img id="lafayette-img" alt="Lafayette College"/>
                 <h3>Lafayette College - Class of 2020</h3>
                 <ul>
-                    <li>Bachelors Degree in Computer Science</li>
+                    <li><strong>Bachelors Degree in Computer Science</strong></li>
                         <p>
                             Gained knowledge of programming, computer architectures, and computer algorithms. Learned to use programming languages,
                             such as Java, C++, and C. Worked in teams to develop software for a customer's use. Learned programming approaches to
                             handle analysis of big data. Generated an ability to learn new coding languages and skill in short periods of time.
                         </p>
-                    <li>Bachelors Degree in Asian Studies</li>
+                    <li><strong>Bachelors Degree in Asian Studies</strong></li>
                         <p>
                             Introduced new perspectives of ideas not present in areas, such as the U.S. Allowed me to decentralize my view of the world
                             and be present of the massive impacts that Asia has had (and continues to have) on the world. I also studied Japanese
