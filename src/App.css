@@ -23,9 +23,8 @@ p {
 
 #header-container {
   background-image: url("./images/header-image.jpg");
-  background-size: cover;
-  background-position-y: 70%;
   width: 100%;
+  max-height: 450px;
 }
 
 header {
@@ -34,6 +33,7 @@ header {
 
 header img {
   max-width: 20%;
+  max-height: 22rem;
   border-radius: 50%;
 
   padding: 1vh 0vw;
@@ -41,11 +41,20 @@ header img {
 
 header h1 {
   padding: 0vh 0vw 1vh 0vw;
-  font-size: 4vw;
+  font-size: 3rem;
 
   color: white;
-  -webkit-text-stroke-width: 0.1vw;
+  -webkit-text-stroke-width: 0.2vh;
   -webkit-text-stroke-color: rgb(13, 48, 80);
+}
+
+@media screen and (max-width: 844px) {
+  #header-container {
+    background-size: cover;
+  }
+  header h1 {
+    font-size: 6vw
+  }
 }
 
 nav {
@@ -151,15 +160,16 @@ nav a:hover {
 @media screen and (max-width: 600px) {
   #page-background {
     padding: 0vw 3rem;
-
-    background: none;
-    
   }
 }
 
+#page-wrapper {
+  background: rgb(255, 255, 255);
+}
+
 #page-container {
-  background: rgb(179, 218, 255);
-  background: rgba(22, 92, 158, 0.2);
+  background: rgb(201, 227, 252);
+  background: rgba(22, 92, 158, 0.25);
   border-left: 1px solid black;
   border-right: 1px solid black;
 }

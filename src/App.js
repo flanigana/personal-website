@@ -20,12 +20,14 @@ class App extends Component {
           </div>
           <NavBar />
           <div id="page-background">
-            <div id="page-container">
-              <div id="page-body">
-                <Switch>
-                  <Route path="/(|about|education|skills|projects|interests|contact)" component={PageContainer} />
-                  <Route component={PageNotFound} />
-                </Switch>
+            <div id="page-wrapper">
+              <div id="page-container">
+                <div id="page-body">
+                  <Switch>
+                    <Route path="/(|about|education|skills|projects|interests|contact)" component={PageContainer} />
+                    <Route component={PageNotFound} />
+                  </Switch>
+                </div>
               </div>
             </div>
           </div>
