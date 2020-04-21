@@ -227,11 +227,9 @@ nav a:hover {
 }
 
 #lafayette-img {
-  content: url("./images/lafayette.jpg");
   float: right;
   margin: 0vw 0vw 1vw 1vw;
 }
-
 
 .skills-list {
   background: rgb(255, 255, 255);
@@ -333,12 +331,10 @@ nav a:hover {
 }
 
 #league-finals-img {
-  content: url("./images/league-finals.jpg");
   float: right;
 }
 
 #meiji-jingu-img {
-  content: url("./images/meiji-jingu.jpg");
   float: left;
   margin: 0px 1vw 1vw 0px;
 }
@@ -348,7 +344,6 @@ nav a:hover {
 }
 
 #contact-img {
-  content: url("./images/classroom-photo.jpg");
   float: right;
   max-width: 40%;
   margin: 0vw 0vw 1vw 1vw;

@@ -20,7 +20,7 @@ const pagesContent = [
             </p>
             <div id="education-container">
                 <h2>Edcuation:</h2>
-                <img id="lafayette-img" alt="Lafayette College"/>
+                <img id="lafayette-img" src="images/lafayette.jpg" alt="Lafayette College"/>
                 <h3>Lafayette College - Class of 2020</h3>
                 <ul>
                     <li><strong>Bachelors Degree in Computer Science</strong></li>
@@ -213,7 +213,7 @@ const pagesContent = [
                             <li>React</li>
                             <li>JavaScript</li>
                             <li>Node.js</li>
-                            <li>MongoDB</li>
+                            <li>Firebase</li>
                         </ul>
                         <p class="project-description">
                             This will be a website designed to analyze the primary colors within images, tag them with
@@ -235,7 +235,7 @@ const pagesContent = [
 
             <div id="computer-gaming" class="interest-container">
                 <h2>Computer Gaming</h2>
-                <img id="league-finals-img" alt="League Finals"/>
+                <img id="league-finals-img" src="images/league-finals.jpg" alt="League Finals"/>
                 <p>
                     The first computer game that I had considerable time in was Minecraft. I had purchased the game in 2010 during the alpha and once mods
                     became a common thing for it, I started installing them. The game got me into editing system files, exploring hidden Windows folders,
@@ -262,7 +262,7 @@ const pagesContent = [
                 </p>
             </div>
             <div id="japanese" class="interest-container">
-                <img id="meiji-jingu-img" alt="Meiji Jingu Entrance"/>
+                <img id="meiji-jingu-img" src="images/meiji-jingu.jpg" alt="Meiji Jingu Entrance"/>
                 <h2>Japanese</h2>
                 <p>
                     I started studying Japanese my sophomore year of university and have continued to study it since. My junior fall semester, I studied
@@ -280,7 +280,7 @@ const pagesContent = [
         name: 'contact',
         html: `
             <h1>Contact Me</h1>
-            <img id="contact-img" alt="Classroom Photo"/>
+            <img id="contact-img" src="images/classroom.jpg" alt="Classroom Photo"/>
             <div id="contact-container">
                 <p>You can contact and follow me using the info and links below:</p>
                 <h2>E-mail: alecflanigan@gmail.com</h2>
